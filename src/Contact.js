@@ -43,7 +43,7 @@ const Contact = () => {
      <div className="form-section">
       <form className="form-input-section"  ref={form} onSubmit={sendEmail}>
         <input  className="input-field" type="email" name="user_email" placeholder="sophie@example.com" />
-        <input className="schedule-demo"  type="submit" value="Schedule a Demo" />
+        <input className="button"  type="submit" value=">" />
       </form>
       <div className="result"> {result ? <Result/> : null}</div>
    </div> 
