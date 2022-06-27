@@ -1,5 +1,6 @@
 import logo from "./images/logo.svg"
 import hero from "./images/hero-desktop.jpg"
+import heroMobile from "./images/hero-mobile.jpg"
 import Contact from "./Contact";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
           <Contact/>
       </div>
       <div className="split right">
-        <img src={hero} alt="girl" className="hero" />  
+        <img src={hero} alt="girl" className="hero" /> 
+        <img src={heroMobile} alt="girlMobile" className="heroMobile" />  
       </div>
     </div>
 

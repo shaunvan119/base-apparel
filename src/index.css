@@ -1,5 +1,5 @@
 body {
-  display: flex;
+  
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
   overflow-y: hidden; /* Hide vertical scrollbar */
@@ -109,5 +109,72 @@ color:#CE9898;
 input[type='email']{
 padding-left: 50px;
 }
+
+/*MQ mobile layout*/
+
+
+ @media  (max-width: 500px) {
+  .split {
+    
+  display: contents;
+  text-align: center;
+  
+ 
+}
+
+
+
+.Were, .coming-soon {
+font-size: 40px;
+line-height: 42px;
+}
+
+.hello-shoppers {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.input-field {
+  height: 48px;
+  width: 311px;
+  
+}
+
+.button {
+  position: absolute;
+  left: 340px;
+  font-weight: 400;
+  height: 52px;
+  
+}
+
+ .form-input-section {
+  justify-content:center;
+  margin-bottom: 20px;
+
+}
+
+
+.logo {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.hero {
+  display: none;
+}
+
+.heroMobile {
+  height: 335px;
+}
+
+
+
+
+
+}
+
+
 
 
