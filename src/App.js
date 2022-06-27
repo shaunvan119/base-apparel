@@ -3,7 +3,7 @@
 
 function App() {
   return (
-    <div className="App">
+    <div className="wrapper">
       <h1>Place holder</h1>
     </div>
   );
